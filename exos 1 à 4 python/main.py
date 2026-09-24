@@ -48,10 +48,11 @@ while _continue:
         print("vous avez choisis un losange")
     while True:
         choix=input("voulez-vous faire un nouvel essai ? (Entrez oui ou non ): ")
-        print("vous avez choisis de continuer ")
+        
         yes=r"^(oui|o)"
         no=r"^(non|n)"
         if re.match(yes,choix,re.I):
+            print("vous avez choisis de continuer ")
             break
         elif re.match(no,choix,re.I):
             _continue=False
