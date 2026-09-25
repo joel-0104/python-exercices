@@ -13,22 +13,22 @@ while cont:
     if choix==1:
        	print("vous avez choisis l'addition")
        	a=int(input("entrer la valeur 1 pour l'addition"))
-           b=int(input("entrer la valeur 2 pour l'addition"))
-           print(f"la somme de {a} et {b} est{seance2.somme(a,b)}")
+       b=int(input("entrer la valeur 2 pour l'addition"))
+       print(f"la somme de {a} et {b} est{seance2.somme(a,b)}")
     elif choix==4:
     		c=int(input("entrer la valeur 1 pour la division"))
-            while True:
-               d=int(input("entrer la valeur 2 pour la division"))
-               if d==0:
-                  print("entrer une valeur differente de zero")
-               else:
-                    break 
-               print(f"le quotient de {c} et {d}  est {seance2.division(c,d)}")     	
+      while True:
+         d=int(input("entrer la valeur 2 pour la division"))
+         if d==0:
+            print("entrer une valeur differente de zero")
+         else:
+              break 
+      print(f"le quotient de {c} et {d}  est {seance2.division(c,d)}")     	
     elif choix==5:
     	    while True:
                    e=int(input("entrer la valeur 1 pour l'inverse"))
                    if e==0:
-                          print("entrer une valeur differente de zero")
+                            print("entrer une valeur differente de zero")
                    else:
                           break
 print(f"l'inverse de {e} est {seance2.inv(e)}" )
